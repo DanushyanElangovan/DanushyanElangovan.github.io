@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Danushyan Elangovan — Aspiring Cloud Engineer</title>
+  <meta name="description" content="Second-year software engineering student at NIBM, Sri Lanka">
+  <meta name="theme-color" content="#0a1128">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#top" class="logo" aria-label="Home">d<span>.</span>e</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#credentials">Credentials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <button class="theme" id="theme" aria-label="Toggle dark mode"><span></span></button>
+      <a class="btn btn-small" href="assets/Danushyan_Elangovan_CV.pdf" download>CV&nbsp;↓</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <p class="status reveal"><i></i> Open to Work · Colombo, Sri Lanka</p>
+      <h1 class="hero-title" aria-label="Hi, I'm Danushyan. I build software.">
+        <span class="line"><span>Hi, I'm</span></span>
+        <span class="line"><span><em>Danushyan.</em></span></span>
+        <span class="line"><span>I build software</span></span>
+        <span class="line"><span>that works.</span></span>
+      </h1>
+      <div class="hero-foot">
+        <p class="lead reveal">
+          Second-year Software Engineering student at NIBM, working towards a career as a cloud engineer. I'm looking for where I can build real features, learn from a team, and put my AWS training to work.
+        </p>
+        <div class="hero-cta reveal">
+          <a class="btn magnetic" href="assets/Danushyan_Elangovan_CV.pdf" download>
+            <span>Download my CV</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v12m0 0l-5-5m5 5l5-5M5 20h14"/></svg>
+          </a>
+          <a class="link" href="#work">See my work</a>
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true"><span></span></div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span>Java</span><span>PHP</span><span>Python</span><span>SQL</span><span>React</span><span>MySQL</span><span>AWS</span><span>Jasper Reports</span>
+        <span>Java</span><span>PHP</span><span>Python</span><span>SQL</span><span>React</span><span>MySQL</span><span>AWS</span><span>Jasper Reports</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="label reveal"><span>01</span> About</div>
+      <div class="about-grid">
+        <h2 class="reveal">I learn by building things and taking them all the way to a working product.</h2>
+        <div class="about-text reveal">
+          <p>I'm a second-year Software Engineering undergraduate at the National Institute of Business Management (NIBM), pursuing a Higher National Diploma. I'm building a strong foundation in frontend and backend development, along with CI/CD practices.</p>
+          <p>My goal is a career as a cloud engineer. I've completed AWS Cloud Practitioner and Solutions Architect training, and I'm an active member of the IEEE student branch and the AWS NIBM Community.</p>
+          <p>I've built full systems for real businesses, from a pharmacy POS to a textile shop's online store. Now I want to do that inside a team.</p>
+          <ul class="facts">
+            <li><b>Studying</b>HND in Software Engineering, NIBM (Year 2)</li>
+            <li><b>Based in</b>Colombo, Sri Lanka</li>
+            <li><b>Looking for</b>Internship · Software / Cloud</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="section work" id="work">
+      <div class="label reveal"><span>02</span> Selected work</div>
+      <ul class="projects">
+        <li class="project reveal">
+          <a href="#contact">
+            <span class="p-num">01</span>
+            <div class="p-main">
+              <h3>Miniflix</h3>
+              <p>A Netflix-inspired content management platform built as a Year 2 HND module project, with user management, subscription management and content management modules.</p>
+              <div class="tags"><span>React</span><span>Java</span><span>MySQL</span><span>Source on request</span></div>
+            </div>
+            <span class="p-arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li class="project reveal">
+          <a href="https://github.com/danush-10-11/E-commerce" target="_blank" rel="noopener">
+            <span class="p-num">02</span>
+            <div class="p-main">
+              <h3>E-Commerce for a Textile Shop</h3>
+              <p>A full-stack web application for a Colombo textile retailer, combining an inventory system, an employee management system and a customer-facing online store.</p>
+              <div class="tags"><span>PHP</span><span>Bootstrap</span><span>MySQL</span><span>Client project</span></div>
+            </div>
+            <span class="p-arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li class="project reveal">
+          <a href="https://github.com/danush-10-11/POS-system" target="_blank" rel="noopener">
+            <span class="p-num">03</span>
+            <div class="p-main">
+              <h3>POS System, Golden Chemist Pharmacy</h3>
+              <p>A desktop point-of-sale system on the MVC architecture for a retail pharmacy. It handles billing, employees and inventory, and produces Jasper-powered reports.</p>
+              <div class="tags"><span>Java Swing</span><span>MySQL</span><span>Jasper Reports</span><span>MVC</span></div>
+            </div>
+            <span class="p-arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li class="project reveal">
+          <a href="https://github.com/danush-10-11/Gym-Management" target="_blank" rel="noopener">
+            <span class="p-num">04</span>
+            <div class="p-main">
+              <h3>Gym Management, Muscle Hunters</h3>
+              <p>A desktop application for a local gym that manages trainer and employee records, members and billing, with full CRUD across every module.</p>
+              <div class="tags"><span>Java Swing</span><span>MySQL</span><span>NetBeans</span></div>
+            </div>
+            <span class="p-arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li class="project reveal">
+          <a href="https://github.com/DanushyanElangovan/TechFix" target="_blank" rel="noopener">
+            <span class="p-num">05</span>
+            <div class="p-main">
+              <h3>TechFix</h3>
+              <p>An Android app for booking, tracking and managing repair services for phones, laptops and tablets. Customers and admins get their own roles, backed by a REST API.</p>
+              <div class="tags"><span>Android</span><span>REST API</span><span>JavaScript</span></div>
+            </div>
+            <span class="p-arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li class="project reveal">
+          <a href="https://github.com/DanushyanElangovan/aqua-sense-microplastic-monitor" target="_blank" rel="noopener">
+            <span class="p-num">06</span>
+            <div class="p-main">
+              <h3>AquaSense</h3>
+              <p>An IoT water-quality monitor that detects microplastics using turbidity sensing, while tracking pH, conductivity and temperature.</p>
+              <div class="tags"><span>IoT</span><span>C++</span><span>Sensors</span><span>Team project</span></div>
+            </div>
+            <span class="p-arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li class="project reveal">
+          <a href="https://github.com/DanushyanElangovan/Hospital_management_system" target="_blank" rel="noopener">
+            <span class="p-num">07</span>
+            <div class="p-main">
+              <h3>Hospital Management System</h3>
+              <p>A database-driven system built for my Database Management coursework, covering the data and workflows a hospital relies on day to day.</p>
+              <div class="tags"><span>PHP</span><span>MySQL</span><span>Coursework</span></div>
+            </div>
+            <span class="p-arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+      </ul>
+      <div class="more-repos reveal">
+        <h3>More repositories</h3>
+        <ul>
+          <li><a href="https://github.com/DanushyanElangovan/Hospital_management_system" target="_blank" rel="noopener">Hospital Management System <small>PHP · coursework</small></a></li>
+          <li><a href="https://github.com/DanushyanElangovan/Smartbuild" target="_blank" rel="noopener">Smartbuild <small>Python</small></a></li>
+          <li><a href="https://github.com/DanushyanElangovan/Cycle-sleep-cycle-optimizer-" target="_blank" rel="noopener">Cycle Sleep Optimizer <small>JavaScript</small></a></li>
+        </ul>
+      </div>
+      <p class="more reveal">All repositories on <a href="https://github.com/DanushyanElangovan" target="_blank" rel="noopener">GitHub →</a></p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills" id="skills">
+      <div class="label reveal"><span>03</span> Toolbox</div>
+      <div class="skill-cols four">
+        <div class="reveal">
+          <h3>Languages</h3>
+          <ul><li>Java</li><li>PHP</li><li>Python</li><li>SQL / PL-SQL</li></ul>
+        </div>
+        <div class="reveal">
+          <h3>Frontend</h3>
+          <ul><li>React.js</li><li>HTML / CSS / JavaScript</li><li>Responsive &amp; UI/UX design</li></ul>
+        </div>
+        <div class="reveal">
+          <h3>Backend &amp; tools</h3>
+          <ul><li>MySQL</li><li>Jasper Reports</li><li>Object-oriented design</li><li>Git &amp; GitHub</li></ul>
+        </div>
+        <div class="reveal">
+          <h3>Cloud</h3>
+          <ul><li>AWS Cloud Practitioner <small>(training)</small></li><li>AWS Solutions Architect <small>(training)</small></li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CREDENTIALS -->
+    <section class="section creds" id="credentials">
+      <div class="label reveal"><span>04</span> Credentials</div>
+      <div class="skill-cols">
+        <div class="reveal">
+          <h3>Certifications</h3>
+          <ul>
+            <li>AWS Cloud Practitioner <small>certified training</small></li>
+            <li>AWS Solutions Architect <small>certified training</small></li>
+            <li>Python Programming <small>University of Moratuwa, 2025</small></li>
+            <li>Oracle Certified Associate <small>PL/SQL</small></li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <h3>Education</h3>
+          <ul>
+            <li>Higher National Diploma, Software Engineering <small>NIBM, Year 2 in progress</small></li>
+            <li>Diploma, Software Engineering <small>NIBM, completed</small></li>
+            <li>Certificate, Software Engineering <small>NIBM, completed</small></li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <h3>Community</h3>
+          <ul>
+            <li>IEEE <small>student member</small></li>
+            <li>AWS NIBM Community <small>member</small></li>
+            <li>Codex 2.0 <small>member, Delegates &amp; Guest Relationship Committee</small></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="label reveal"><span>05</span> Contact</div>
+      <h2 class="big reveal">Let's build something <em>together.</em></h2>
+      <div class="contact-row reveal">
+        <a class="btn magnetic" href="mailto:danushyanelangovan@gmail.com"><span>danushyanelangovan@gmail.com</span></a>
+        <a class="btn btn-ghost" href="assets/Danushyan_Elangovan_CV.pdf" download>Download CV ↓</a>
+      </div>
+      <ul class="details reveal">
+        <li><b>Email</b><a href="mailto:danushyanelangovan@gmail.com">danushyanelangovan@gmail.com</a></li>
+        <li><b>Phone</b><a href="tel:+94769285325">076 928 5325</a></li>
+      </ul>
+      <ul class="social reveal">
+        <li><a href="https://github.com/DanushyanElangovan" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/danushyan-elangovan-b402aa2ba" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year">2026</span> Danushyan Elangovan</span>
+    <span>Colombo, Sri Lanka</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
